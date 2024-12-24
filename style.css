@@ -1,0 +1,71 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #0b0b0d, #1e1e23);
+    color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container, .intro-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    color: #ffd700; /* Dourado */
+}
+
+p {
+    color: #b5d6f8; /* Azul bebê */
+}
+
+.option, .start-button {
+    background: #ffd700;
+    color: #0b0b0d;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.option:hover, .start-button:hover {
+    background: #b89c30;
+}
+
+/* Estilo para a Imagem do Resultado */
+#result-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#result-container button {
+    background: #25d366; /* Cor do WhatsApp */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#result-container button:hover {
+    background: #1da851;
+}
